@@ -1,0 +1,32 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0px;
+}
+
+#contenedor {
+    position: relative;
+    background: url(../pictures/carousel.gif) center;
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
+}
+
+#mini-contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba( 255, 255, 255, 0.508 );
+    width: 94%;
+    height: 94%;
+}
+.pihuicho-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
